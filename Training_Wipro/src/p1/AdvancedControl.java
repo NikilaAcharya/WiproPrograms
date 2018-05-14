@@ -17,6 +17,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class AdvancedControl {
 	public static WebDriver driver;
 	public static void main(String[] args) throws IOException {
+		//Change for test
 		// TODO Auto-generated method stub
 			driver=new  FirefoxDriver();
 			driver.get("file:///E:/Selenium/docs/sample.html");
