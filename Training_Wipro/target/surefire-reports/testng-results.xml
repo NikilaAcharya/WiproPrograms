@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18802" started-at="2018-05-11T08:05:38Z" finished-at="2018-05-11T08:05:57Z">
+    <groups>
+      <group name="regression">
+        <method signature="TestNg1.flightDetails()[pri:11, instance:testNg.TestNg1@34ce8af7]" name="flightDetails" class="testNg.TestNg1"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestNg1.login(java.lang.String, java.lang.String)[pri:10, instance:testNg.TestNg1@34ce8af7]" name="login" class="testNg.TestNg1"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test1" duration-ms="18802" started-at="2018-05-11T08:05:38Z" finished-at="2018-05-11T08:05:57Z">
+      <class name="testNg.TestNg1">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:testNg.TestNg1@34ce8af7]" name="beforeClass" is-config="true" duration-ms="8365" started-at="2018-05-11T13:35:38Z" finished-at="2018-05-11T13:35:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://newtours.demoaut.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:10, instance:testNg.TestNg1@34ce8af7]" name="login" duration-ms="4266" started-at="2018-05-11T13:35:46Z" data-provider="getCredentials" finished-at="2018-05-11T13:35:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:10, instance:testNg.TestNg1@34ce8af7]" name="login" duration-ms="4085" started-at="2018-05-11T13:35:51Z" data-provider="getCredentials" finished-at="2018-05-11T13:35:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="flightDetails()[pri:11, instance:testNg.TestNg1@34ce8af7]" name="flightDetails" duration-ms="2037" started-at="2018-05-11T13:35:55Z" finished-at="2018-05-11T13:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightDetails -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testNg.TestNg1@34ce8af7]" name="afterClass" is-config="true" duration-ms="10" started-at="2018-05-11T13:35:57Z" finished-at="2018-05-11T13:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testNg.TestNg1 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
